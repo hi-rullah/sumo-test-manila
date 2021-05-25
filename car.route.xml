@@ -1,0 +1,13 @@
+<routes>
+    <vType id="CAR" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="70"/>
+	<vType id="BUS" accel="0.6" decel="4.5" sigma="0.5" length="12" maxSpeed="40"/>
+
+    <vehicle id="0" type="CAR" depart="0" color="1,1,0">
+      <route edges="933310892#0 933310892#1 156307540"/>
+    </vehicle>
+	
+	<vehicle id="1" type="BUS" depart="1" color="1,1,0">
+      <route edges="933310892#0 933310892#1 156307540"/>
+    </vehicle>
+
+</routes>
